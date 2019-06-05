@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JaverianaCali.Views.CoursesView"
-            xmlns:local="clr-namespace:JaverianaCali">   
+            xmlns:local="clr-namespace:JaverianaCali"
+             NavigationPage.HasNavigationBar="false">   
     <ContentPage.Content>
         <Grid RowSpacing="0">
         <Grid.RowDefinitions>
@@ -29,7 +30,8 @@
                        FontSize="Large"/>
                 <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedProfile"/>
 
             </Grid>
         <ScrollView Grid.Row="1">

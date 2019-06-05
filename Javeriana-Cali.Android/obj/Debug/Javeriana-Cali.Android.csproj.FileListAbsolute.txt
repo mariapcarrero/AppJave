@@ -529,3 +529,8 @@
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/machine.config
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_CompileToDalvik.stamp
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconizq.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/.Javeriana-Cali.pdb.icloud
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 2.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 3.dll
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana_Cali.Android 3.dll

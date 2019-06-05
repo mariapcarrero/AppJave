@@ -20,23 +20,31 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/BooksView.xaml</FilePath>
-      <Hash>50-62-EB-BC-49-41-BE-1E-15-EB-B6-F8-5C-BF-D3-57</Hash>
-      <Properties />
+      <Hash>A8-3C-E3-97-8B-D4-90-EE-FB-9B-5D-1A-F3-2C-EA-FF</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/CoursesView.xaml</FilePath>
-      <Hash>C7-00-76-D4-C4-55-E7-85-AB-81-EE-5D-B4-E9-6C-EE</Hash>
-      <Properties />
+      <Hash>95-1D-BE-6C-CE-B6-19-7A-5A-FC-81-C7-F8-25-EF-C8</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/DetailedCourseView.xaml</FilePath>
-      <Hash>5C-03-35-33-E4-D1-B0-05-DB-40-D3-89-2C-83-5A-EC</Hash>
-      <Properties />
+      <Hash>C1-70-2F-75-8D-B4-ED-4C-73-9C-FF-DB-65-35-2E-81</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/LoginView.xaml</FilePath>
-      <Hash>42-8B-AB-B4-99-67-F4-F1-91-17-E4-68-76-48-5C-05</Hash>
-      <Properties />
+      <Hash>54-16-4D-36-E8-BF-82-08-5B-AB-F9-19-D2-62-DC-4C</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/Portatiles.xaml</FilePath>

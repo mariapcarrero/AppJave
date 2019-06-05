@@ -103,6 +103,7 @@
     <AndroidResource Include="Resources\drawable\IconLogOut.png" />
     <AndroidResource Include="Resources\drawable\IconPortatilesNavBar.png" />
     <AndroidResource Include="Resources\drawable\IconUser.png" />
+    <AndroidResource Include="Resources\drawable\iconizq.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

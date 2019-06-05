@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="JaverianaCali.Views.LoginView"
              xmlns:effects="clr-namespace:JaverianaCali.Effects"
-             xmlns:skiaSharp="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms">
+             xmlns:skiaSharp="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             NavigationPage.HasNavigationBar="false">
     <ContentPage.Resources>
 
               <OnPlatform x:Key="BrandonGrotesqueLight"

@@ -20,6 +20,7 @@ namespace JaverianaCali.Views
             InitializeComponent();
             context = new PortatilesViewModel(user);
             BindingContext = context;
+            this.user = user;
         }
 
         private async void ClickedLogOut(object sender, EventArgs args)
@@ -29,7 +30,9 @@ namespace JaverianaCali.Views
 
         private async void ClickedAsignaturas(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CoursesView(user));
+            CoursesView view = new CoursesView(user);
+            await Navigation.PushAsync(view);
+            await view.Init();
         }
 
         private async void ClickedLibros(object sender, EventArgs e)

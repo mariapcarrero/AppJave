@@ -14,6 +14,7 @@ namespace JaverianaCali.Views
             InitializeComponent();
             BindingContext = new BookViewModel(user);
             ListViewBooks.ItemSelected += ListViewBooks_ItemSelected;
+            this.user = user;
         }
 
         private void ListViewBooks_ItemSelected(object sender, SelectedItemChangedEventArgs eventArgument)
@@ -35,6 +36,13 @@ namespace JaverianaCali.Views
         private async void ClickedPortatiles(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Portatiles(user));
+        }
+
+        private async void ClickedAsignaturas(object sender, EventArgs e)
+        {
+            CoursesView view = new CoursesView(user);
+            await Navigation.PushAsync(view);
+            await view.Init();
         }
 
 
