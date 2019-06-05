@@ -548,3 +548,4 @@
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/bin/Debug/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/linksrc/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 15.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 20.pdb

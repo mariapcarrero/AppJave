@@ -24,7 +24,7 @@
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
                              Clicked="ClickedLogOut"/>
-                <Label Text="MIS CURSOS" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black"
+                <Label Text="Mis Cursos" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="White"
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>

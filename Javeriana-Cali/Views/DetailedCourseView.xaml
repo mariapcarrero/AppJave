@@ -23,7 +23,7 @@
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
                              Clicked="ClickedAsignaturas"/>
-                <Label Text="MIS NOTAS" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black"
+                <Label Text="Mis Notas" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="White"
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>

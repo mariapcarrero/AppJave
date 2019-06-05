@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{770F3FBF-059C-41BE-97AD-AE352F28E093}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Views/CoursesView.xaml">
     <Files>
       <File FileName="Javeriana-Cali/Views/Templates/CourseInfoTemplate.xaml" Line="1" Column="1" />
       <File FileName="Javeriana-Cali/Views/BooksView.xaml" />
@@ -17,6 +17,7 @@
       <File FileName="Javeriana-Cali/Views/Ajustes.xaml" />
       <File FileName="Javeriana-Cali/Views/CoursesView.xaml" />
       <File FileName="Javeriana-Cali/ViewModels/LoginViewModel.cs" Line="16" Column="36" />
+      <File FileName="Javeriana-Cali/Views/LoginView.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,13 +28,11 @@
               <Node name="Services" expanded="True">
                 <Node name="Restful" expanded="True" />
               </Node>
-              <Node name="ViewModels" expanded="True">
-                <Node name="LoginViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Ajustes.xaml" expanded="True" />
                 <Node name="BooksView.xaml" expanded="True" />
-                <Node name="CoursesView.xaml" expanded="True" />
+                <Node name="CoursesView.xaml" expanded="True" selected="True" />
                 <Node name="DetailedCourseView.xaml" expanded="True" />
                 <Node name="LoginView.xaml" expanded="True" />
                 <Node name="Portatiles.xaml" expanded="True" />

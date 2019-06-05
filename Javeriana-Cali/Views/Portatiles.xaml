@@ -26,7 +26,7 @@
                              BackgroundColor="#2C5697"
                              Clicked="ClickedLogOut"
                              />
-                <Label Text="Portatiles" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black" 
+                <Label Text="Portatiles" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="White" 
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>
@@ -46,7 +46,7 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="150"></RowDefinition>
                         </Grid.RowDefinitions>
-                        <Label Margin="10" Text="Edificio: Palmas" Grid.Column="1"></Label>
+                        <Label Margin="10" Text="Edificio: Palmas" Grid.Column="1" FontSize="Medium" FontFamily="{StaticResource font_heavy}"></Label>
                         
                         <Image Margin="20" Source="PortatilImagen.png" Grid.Column="0"/>
                     </Grid>
@@ -59,7 +59,7 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="150"></RowDefinition>
                         </Grid.RowDefinitions>
-                        <Label Margin="10" Text="Edificio: Samán" Grid.Column="1"></Label>
+                        <Label Margin="10" Text="Edificio: Samán" Grid.Column="1" FontSize="Medium" FontFamily="{StaticResource font_heavy}"></Label>
 
                         <Image Margin="20" Source="PortatilImagen.png" Grid.Column="0"/>
                     </Grid>
