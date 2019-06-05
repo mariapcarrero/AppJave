@@ -1,43 +1,38 @@
 ﻿<Properties StartupConfiguration="{770F3FBF-059C-41BE-97AD-AE352F28E093}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Views/BooksView.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/App.xaml">
     <Files>
       <File FileName="Javeriana-Cali/Views/Templates/CourseInfoTemplate.xaml" Line="1" Column="1" />
       <File FileName="Javeriana-Cali/App.xaml" />
       <File FileName="Javeriana-Cali/Views/CoursesView.xaml" />
       <File FileName="Javeriana-Cali/Services/CourseService.cs" Line="1" Column="1" />
-      <File FileName="../../../Downloads/FrontProyecto/FrontProyecto/FrontProyecto/Views/Asignaturas.xaml" />
-      <File FileName="../../../Downloads/KickassUI.InSpace-master/Posy/Pages/ResultPage.xaml" />
-      <File FileName="Javeriana-Cali/Views/LoginView.xaml" />
+      <File FileName="../../../Downloads/FrontProyecto/FrontProyecto/FrontProyecto/Views/Asignaturas.xaml" Line="1" Column="1" />
+      <File FileName="../../../Downloads/KickassUI.InSpace-master/Posy/Pages/ResultPage.xaml" Line="1" Column="1" />
       <File FileName="Javeriana-Cali/Views/BooksView.xaml" />
-      <File FileName="Javeriana-Cali/Views/BooksView.xaml.cs" Line="12" Column="40" />
       <File FileName="Javeriana-Cali/Views/DetailedCourseView.xaml" />
       <File FileName="Javeriana-Cali/Views/DetailedCourseView.xaml.cs" Line="17" Column="58" />
-      <File FileName="Javeriana-Cali/ViewModels/DetailedCourseViewModel.cs" Line="11" Column="34" />
+      <File FileName="Javeriana-Cali/ViewModels/DetailedCourseViewModel.cs" Line="17" Column="1" />
+      <File FileName="Javeriana-Cali/ViewModels/BookViewModel.cs" Line="22" Column="1" />
+      <File FileName="Javeriana-Cali/Services/CourseServiceInterface.cs" Line="1" Column="1" />
+      <File FileName="Javeriana-Cali/Views/Portatiles.xaml" />
+      <File FileName="Javeriana-Cali/Views/Ajustes.xaml" />
+      <File FileName="Javeriana-Cali/obj/Debug/netstandard2.0/obj/Debug/netstandard2.0/App.xaml.g.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FrontProyecto" expanded="True">
-            <Node name="FrontProyecto" expanded="True">
-              <Node name="Views" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="FrontProyecto.Android" expanded="True" />
-          </Node>
           <Node name="Javeriana-Cali" expanded="True">
             <Node name="Javeriana-Cali" expanded="True">
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="BooksView.xaml" expanded="True" selected="True" />
+                <Node name="BooksView.xaml" expanded="True" />
                 <Node name="DetailedCourseView.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" selected="True" />
             </Node>
-            <Node name="Javeriana-Cali.Android" expanded="True" />
-          </Node>
-          <Node name="Posy" expanded="True">
-            <Node name="Posy" expanded="True">
-              <Node name="Pages" expanded="True" />
+            <Node name="Javeriana-Cali.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

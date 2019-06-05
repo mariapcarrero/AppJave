@@ -25,7 +25,7 @@
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
                              Clicked="ClickedLogOut"/>
-                <Label Text="Ajustes" Grid.Column="1" TextColor="White" 
+                <Label Text="Ajustes" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black" 
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>

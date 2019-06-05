@@ -3,7 +3,7 @@
   <Files>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/App.xaml</FilePath>
-      <Hash>3A-92-C6-4E-7D-33-7C-39-86-A3-B3-F2-6C-EB-A4-7F</Hash>
+      <Hash>68-56-14-2B-71-6D-F4-39-BC-E1-4A-A8-D3-C3-FF-38</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
@@ -13,24 +13,24 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/Ajustes.xaml</FilePath>
-      <Hash>C9-75-F8-9E-ED-54-31-C3-61-50-4D-BD-6C-6B-D0-DE</Hash>
+      <Hash>B8-F2-55-96-E2-3F-5C-7B-E4-B6-28-37-42-59-74-BB</Hash>
       <Properties>
         <string>NavigationPage.HasNavigationBar</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/BooksView.xaml</FilePath>
-      <Hash>7D-55-34-26-DD-AA-5E-0B-40-57-3C-81-0B-CE-B5-65</Hash>
+      <Hash>50-62-EB-BC-49-41-BE-1E-15-EB-B6-F8-5C-BF-D3-57</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/CoursesView.xaml</FilePath>
-      <Hash>12-9C-4B-2C-86-9A-B3-93-64-96-62-3C-06-D3-75-A8</Hash>
+      <Hash>C7-00-76-D4-C4-55-E7-85-AB-81-EE-5D-B4-E9-6C-EE</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/DetailedCourseView.xaml</FilePath>
-      <Hash>BB-77-BB-CB-3C-64-A1-12-6F-4D-F7-D1-F4-A5-30-B7</Hash>
+      <Hash>5C-03-35-33-E4-D1-B0-05-DB-40-D3-89-2C-83-5A-EC</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
@@ -40,7 +40,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/Portatiles.xaml</FilePath>
-      <Hash>09-4B-B2-F2-DA-C2-A7-FF-56-C0-7B-A3-B5-12-02-9C</Hash>
+      <Hash>93-20-59-C3-0B-EA-48-6E-19-39-37-0B-1D-17-45-76</Hash>
       <Properties>
         <string>NavigationPage.HasNavigationBar</string>
       </Properties>

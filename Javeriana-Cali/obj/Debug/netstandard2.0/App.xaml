@@ -30,6 +30,21 @@
         <On Platform="Android" Value="futura_heavy.ttf#FuturaBT-Heavy" />
         <On Platform="iOS" Value="FuturaBT-Heavy" />
       </OnPlatform>
+      <OnPlatform x:Key="Coco" x:TypeArguments="x:String">
+        <On Platform="Android" Value="Cocogoose Pro Light-trial.ttf#Cocogoose-Pro-Light-trial" />
+        <On Platform="iOS" Value="FuturaBT-Heavy" />
+      </OnPlatform>
+      <OnPlatform x:Key="PoppinsMed" x:TypeArguments="x:String">
+        <On Platform="Android" Value="Poppins-Medium.ttf#Poppins-Medium" />
+        <On Platform="iOS" Value="FuturaBT-Heavy" />
+      </OnPlatform>
+      <OnPlatform x:Key="Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="Poppins-SemiBold.ttf#Poppins-SemiBold" />
+        <On Platform="iOS" Value="FuturaBT-Heavy" />
+      </OnPlatform>
+      <OnPlatform x:Key="BrandonGrotesqueL" x:TypeArguments="x:String" Android="BrandonGrotesque-Light.otf#BrandonGrotesque-Light" iOS="BrandonGrotesque-Light" />
+      <OnPlatform x:Key="BrandonGrotesqueM" x:TypeArguments="x:String" Android="BrandonGrotesque-Medium.otf#BrandonGrotesque-Medium" iOS="BrandonGrotesque-Medium" />
+      <OnPlatform x:Key="GinReg" x:TypeArguments="x:String" Android="Gin-Regular.otf#Gin-Regular" iOS="Gin" />
       <!-- STYLES -->
       <Style TargetType="Label" x:Key="FontHeavy">
         <Setter Property="FontSize" Value="16" />
@@ -42,12 +57,19 @@
         <Setter Property="FontSize" Value="16" />
         <Setter Property="TextColor" Value="White" />
       </Style>
-      <OnPlatform x:Key="BrandonGrotesqueL" x:TypeArguments="x:String" Android="BrandonGrotesque-Light.otf#BrandonGrotesque-Light" iOS="BrandonGrotesque-Light" />
-      <OnPlatform x:Key="BrandonGrotesqueM" x:TypeArguments="x:String" Android="BrandonGrotesque-Medium.otf#BrandonGrotesque-Medium" iOS="BrandonGrotesque-Medium" />
-      <OnPlatform x:Key="GinReg" x:TypeArguments="x:String" Android="Gin-Regular.otf#Gin-Regular" iOS="Gin" />
       <Style x:Key="BrandonGrotesqueLightMFontStyle" TargetType="Label">
         <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueM}" />
         <Setter Property="FontSize" Value="Medium" />
+      </Style>
+      <Style TargetType="{x:Type Label}" x:Key="Cocogoose">
+        <Setter Property="FontFamily" Value="{StaticResource Poppins}" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="TextColor" Value="Black" />
+      </Style>
+      <Style TargetType="{x:Type Label}" x:Key="PoppinsMedium">
+        <Setter Property="FontFamily" Value="{StaticResource PoppinsMed}" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="TextColor" Value="Black" />
       </Style>
       <Style x:Key="BrandonGrotesqueLightSFontStyle" BasedOn="{StaticResource BrandonGrotesqueLightMFontStyle}" TargetType="Label">
         <Setter Property="FontSize" Value="Medium" />

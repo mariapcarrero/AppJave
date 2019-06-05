@@ -22,7 +22,7 @@
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
                              Clicked="ClickedLogOut"/>
-                <Label Text="MIS CURSOS" Grid.Column="1" FontFamily="{StaticResource BrandonGrotesqueM}" TextColor="Black"
+                <Label Text="MIS NOTAS" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black"
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>
@@ -33,7 +33,7 @@
             </Grid>
                  <ScrollView Grid.Row="1">
                     <StackLayout VerticalOptions = "FillAndExpand" HorizontalOptions = "FillAndExpand" Orientation="Vertical" Spacing="5" Padding="5" >
-                        <Label Text="Notas:" Style="{StaticResource FontBook}" TextColor="Black"></Label>
+                        <Label Text="Notas:" Style="{StaticResource PoppinsMedium}" TextColor="Black"></Label>
                         <Label Text="{Binding GetGradesInformation}" Style="{StaticResource FontHeavy}" TextColor="Black"></Label>
                     </StackLayout>
                 </ScrollView>

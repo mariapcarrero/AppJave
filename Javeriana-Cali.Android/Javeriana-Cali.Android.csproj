@@ -154,6 +154,16 @@
     <AndroidAsset Include="Assets\futura_heavy.ttf" />
     <AndroidAsset Include="Assets\futura_medium.ttf" />
     <AndroidAsset Include="Assets\Fenix-Regular.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Italic-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Light Italic-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Light-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Semilight Italic-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Semilight-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Thin Italic-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Thin-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro UltraLight Italic-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro Ultralight-trial.ttf" />
+    <AndroidAsset Include="Assets\Cocogoose Pro-trial.ttf" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
