@@ -29,13 +29,28 @@
                        FontSize="Large"/>
                 <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedProfile"/>
 
             </Grid>
-                 <ScrollView Grid.Row="1">
-                    <StackLayout VerticalOptions = "FillAndExpand" HorizontalOptions = "FillAndExpand" Orientation="Vertical" Spacing="5" Padding="5" >
-                        <Label Text="Notas:" Style="{StaticResource PoppinsMedium}" TextColor="Black"></Label>
-                        <Label Text="{Binding GetGradesInformation}" Style="{StaticResource FontHeavy}" TextColor="Black"></Label>
+                <ScrollView Grid.Row="1">
+                    <StackLayout>
+                        <ListView x:Name="ListViewGrades" ItemsSource="{Binding Grades}" HasUnevenRows = "true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        
+                                                <StackLayout VerticalOptions = "FillAndExpand" HorizontalOptions = "FillAndExpand" Orientation="Vertical" Spacing="5" Padding="5" >
+                                                  <Label Text="{Binding ParseName}"  Style="{StaticResource FontHeavy}" TextColor="Black" />
+                                                  <Label Text="{Binding ParseGrade}" Margin="0,0,0,0" Style="{StaticResource FontBook}" TextColor="Black"/>
+                                                  <Label Text="{Binding ParsePercentage}"  Style="{StaticResource FontHeavy}" TextColor="Black" />
+                                                </StackLayout>
+                                          
+
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
                     </StackLayout>
                 </ScrollView>
             <Grid Grid.Row="2">

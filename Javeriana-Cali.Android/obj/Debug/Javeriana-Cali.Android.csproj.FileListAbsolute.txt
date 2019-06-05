@@ -535,6 +535,16 @@
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 4.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 5.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 6.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 7.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 8.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 9.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 10.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 11.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 12.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 13.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/portatilimagen.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 14.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/bin/Debug/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/linksrc/Javeriana-Cali.pdb
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 6.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/Javeriana-Cali 15.pdb

@@ -31,12 +31,12 @@
                        FontSize="Large"/>
                 <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedProfile"/>
 
             </Grid>
             <ScrollView Grid.Row="1">
                 <StackLayout>
-                    <Label Text="Hola"/>
                     <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
                     <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
                     <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>

@@ -24,24 +24,49 @@
                 <ImageButton Source="IconLogOut.png" Grid.Column="0" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
-                             Clicked="ClickedLogOut"/>
-                <Label Text="Portatiles" Grid.Column="1" Style="{StaticResource Cocogoose}" TextColor="Black" 
+                             Clicked="ClickedLogOut"
+                             />
+                <Label Text="Portatiles" Grid.Column="1" TextColor="White" 
                        HorizontalTextAlignment="Center" 
                        VerticalTextAlignment="Center"
                        FontSize="Large"/>
                 <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedProfile"/>
 
             </Grid>
             <ScrollView Grid.Row="1">
-                <StackLayout>
-                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
-                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
-                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
-                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
-                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                <StackLayout Padding="10">
+                    <Grid ColumnSpacing="0" BackgroundColor="#D8D8D8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label Margin="10" Text="Edificio: Palmas" Grid.Column="1"></Label>
+                        
+                        <Image Margin="20" Source="PortatilImagen.png" Grid.Column="0"/>
+                    </Grid>
+
+                    <Grid ColumnSpacing="0" BackgroundColor="#D8D8D8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label Margin="10" Text="Edificio: Samán" Grid.Column="1"></Label>
+
+                        <Image Margin="20" Source="PortatilImagen.png" Grid.Column="0"/>
+                    </Grid>
                 </StackLayout>
+
+
+
             </ScrollView>
 
             <Grid Grid.Row="2">
@@ -59,13 +84,15 @@
                              HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
-                             Clicked="ClickedAsignaturas"/>
+                             Clicked="ClickedAsignaturas"
+                             />
                 <ImageButton Source="IconPortatilesNavBar.png" 
                              Grid.RowSpan="3"
                              Grid.Column="1" 
                              HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             />
                 <ImageButton Source="IconBook.png" 
                              Grid.RowSpan="3"
                              Grid.Column="2" 
@@ -79,7 +106,7 @@
                              HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
                              BackgroundColor="#2C5697"
-                             Clicked="ClickedAjustes" />
+                             Clicked="ClickedAjustes"/>
 
 
             </Grid>

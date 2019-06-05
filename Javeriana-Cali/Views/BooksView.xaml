@@ -31,7 +31,8 @@
                        FontSize="Large"/>
                 <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
                              VerticalOptions="CenterAndExpand" 
-                             BackgroundColor="#2C5697"/>
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedProfile"/>
 
             </Grid>
         <ListView Grid.Row="1" x:Name="ListViewBooks" ItemsSource="{Binding Books}" HasUnevenRows = "true">

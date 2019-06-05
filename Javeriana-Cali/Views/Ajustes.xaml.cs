@@ -29,6 +29,11 @@ namespace JaverianaCali.Views
             await Navigation.PushAsync(new LoginView());
         }
 
+        private async void ClickedProfile(object sender, EventArgs args)
+        {
+            await DisplayAlert(user.Name + " " + user.Lastname, "Codigo: " + user.Id.ToString(), "Ok");
+        }
+
         private async void ClickedAsignaturas(object sender, EventArgs e)
         {
             CoursesView view = new CoursesView(user);

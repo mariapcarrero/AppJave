@@ -1,31 +1,52 @@
 ﻿using System;
 namespace JaverianaCali.Models
 {
-    public class GradeModel {
+    public class GradeModel
+    {
 
         private String name;
         private double calification;
         private double percentage;
 
-        public GradeModel(String name, double calification, double percentage) {
+        public GradeModel(String name, double calification, double percentage)
+        {
             this.name = name;
             this.calification = calification;
             this.percentage = percentage;
         }
 
-        public String Name {
+        public String Name
+        {
             get { return name; }
             set { name = value; }
         }
 
-        public double Calification {
+        public double Calification
+        {
             get { return calification; }
             set { calification = value; }
         }
 
-        public double Percentage {
+        public double Percentage
+        {
             get { return percentage; }
             set { percentage = value; }
         }
+
+        public String ParseName
+        {
+            get { return "Nombre: " + name; }
+        }
+
+        public String ParseGrade
+        {
+            get { return "Nota: " + calification; }
+        }
+
+        public String ParsePercentage
+        {
+            get { return "Porcentaje: " + percentage + "%"; }
+        }
+
     }
 }

@@ -24,6 +24,12 @@ namespace JaverianaCali.Views
 
             }
         }
+
+        private async void ClickedProfile(object sender, EventArgs args)
+        {
+            await DisplayAlert(user.Name + " " + user.Lastname, "Codigo: " + user.Id.ToString(), "Ok");
+        }
+
         private async void ClickedLibros(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new BooksView(user));

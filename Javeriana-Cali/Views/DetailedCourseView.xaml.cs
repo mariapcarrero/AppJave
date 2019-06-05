@@ -17,7 +17,23 @@ namespace JaverianaCali.Views
             context = new DetailedCourseViewModel(model);
             BindingContext = context;
             this.user = user;
+            ListViewGrades.ItemSelected += ListViewGrades_ItemSelected;
+
         }
+
+        private void ListViewGrades_ItemSelected(object sender, SelectedItemChangedEventArgs eventArgument)
+        {
+            if (eventArgument.SelectedItem != null)
+            {
+            
+            }
+        }
+
+        private async void ClickedProfile(object sender, EventArgs args)
+        {
+            await DisplayAlert(user.Name + " " + user.Lastname, "Codigo: " + user.Id.ToString(), "Ok");
+        }
+
         private async void ClickedLibros(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new BooksView(user));
