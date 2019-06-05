@@ -23,7 +23,7 @@ namespace JaverianaCali.Views
 
             }
         }
-        private async void ClickedLibros(object sender, EventArgs args, UserModel user)
+        private async void ClickedLibros(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new BooksView(user));
         }

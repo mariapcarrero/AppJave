@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{770F3FBF-059C-41BE-97AD-AE352F28E093}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Views/LoginView.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Views/BooksView.xaml.cs">
     <Files>
       <File FileName="Javeriana-Cali/Views/Templates/CourseInfoTemplate.xaml" Line="1" Column="1" />
       <File FileName="Javeriana-Cali/App.xaml" />
@@ -8,6 +8,8 @@
       <File FileName="../../../Downloads/FrontProyecto/FrontProyecto/FrontProyecto/Views/Asignaturas.xaml" />
       <File FileName="../../../Downloads/KickassUI.InSpace-master/Posy/Pages/ResultPage.xaml" />
       <File FileName="Javeriana-Cali/Views/LoginView.xaml" />
+      <File FileName="Javeriana-Cali/Views/BooksView.xaml" />
+      <File FileName="Javeriana-Cali/Views/BooksView.xaml.cs" Line="26" Column="87" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +26,9 @@
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="LoginView.xaml" selected="True" />
+                <Node name="BooksView.xaml" expanded="True">
+                  <Node name="BooksView.xaml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="Javeriana-Cali.Android" expanded="True" />
