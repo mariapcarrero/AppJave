@@ -18,6 +18,8 @@ namespace JaverianaCali.Views
             InitializeComponent();
             context = new LoginViewModel();
             BindingContext = context;
+            HttpRequestPersistence.CleanCache();
+
             var settings = new HighlightSettings()
             {
                 StrokeWidth = 6,

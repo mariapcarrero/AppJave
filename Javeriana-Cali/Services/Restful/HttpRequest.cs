@@ -27,16 +27,28 @@ namespace JaverianaCali.Services.Restful
         }
 
         public async Task<T> Query(String url) {
-            String encodedParameters = await new FormUrlEncodedContent(queryParameters).ReadAsStringAsync();
-            foreach (KeyValuePair<string, string> entry in headerParameters) {
-                client.DefaultRequestHeaders.Add(entry.Key, entry.Value);
+            String content = "";
+            if (HttpRequestPersistence.GetCachedRequests().ContainsKey(url))
+            {
+                content = HttpRequestPersistence.GetCachedRequests()[url];
+            } else
+            {
+                String encodedParameters = await new FormUrlEncodedContent(queryParameters).ReadAsStringAsync();
+                foreach (KeyValuePair<string, string> entry in headerParameters)
+                {
+                    client.DefaultRequestHeaders.Add(entry.Key, entry.Value);
+                }
+                String defaultUrl = url;
+                if (queryParameters.Count > 0)
+                {
+                    defaultUrl += "?" + encodedParameters;
+                }
+                content = await client.GetStringAsync(defaultUrl);
+                HttpRequestPersistence.GetCachedRequests().Add(url, content);
             }
-            String defaultUrl = url;
-            if (queryParameters.Count > 0) {
-                defaultUrl += "?" + encodedParameters;
-            }
-            string content = await client.GetStringAsync(defaultUrl);
             return JsonConvert.DeserializeObject<T>(content);
         }
+
     }
+    
 }

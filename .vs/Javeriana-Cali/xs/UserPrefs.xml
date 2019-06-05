@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{770F3FBF-059C-41BE-97AD-AE352F28E093}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Services/LoginService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Services/Restful/HttpRequestPersistence.cs">
     <Files>
       <File FileName="Javeriana-Cali/Views/Templates/CourseInfoTemplate.xaml" Line="1" Column="1" />
       <File FileName="Javeriana-Cali/App.xaml" />
@@ -19,12 +19,14 @@
       <File FileName="Javeriana-Cali/Views/Portatiles.xaml.cs" Line="37" Column="1" />
       <File FileName="Javeriana-Cali/Views/BooksView.xaml.cs" Line="46" Column="10" />
       <File FileName="Javeriana-Cali/Views/Ajustes.xaml.cs" Line="32" Column="9" />
-      <File FileName="Javeriana-Cali/Views/CoursesView.xaml.cs" Line="1" Column="1" />
+      <File FileName="Javeriana-Cali/Views/CoursesView.xaml.cs" Line="49" Column="31" />
       <File FileName="Javeriana-Cali/Views/LoginView.xaml" />
-      <File FileName="Javeriana-Cali/Views/LoginView.xaml.cs" Line="39" Column="17" />
+      <File FileName="Javeriana-Cali/Views/LoginView.xaml.cs" Line="21" Column="26" />
       <File FileName="Javeriana-Cali/Services/Restful/HttpRequestBuilder.cs" Line="20" Column="52" />
-      <File FileName="Javeriana-Cali/Services/Restful/HttpRequest.cs" Line="10" Column="29" />
-      <File FileName="Javeriana-Cali/Services/LoginService.cs" Line="17" Column="32" />
+      <File FileName="Javeriana-Cali/Services/Restful/HttpRequest.cs" Line="12" Column="1" />
+      <File FileName="Javeriana-Cali/Services/LoginService.cs" Line="17" Column="19" />
+      <File FileName="Source Not Available" />
+      <File FileName="Javeriana-Cali/Services/Restful/HttpRequestPersistence.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,8 +34,9 @@
           <Node name="Javeriana-Cali" expanded="True">
             <Node name="Javeriana-Cali" expanded="True">
               <Node name="Services" expanded="True">
-                <Node name="Restful" expanded="True" />
-                <Node name="LoginService.cs" selected="True" />
+                <Node name="Restful" expanded="True">
+                  <Node name="HttpRequestPersistence.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
