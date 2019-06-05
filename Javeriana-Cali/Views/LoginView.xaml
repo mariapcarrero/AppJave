@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="JaverianaCali.Views.LoginView"
+             xmlns:effects="clr-namespace:JaverianaCali.Effects"
+             xmlns:skiaSharp="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms">
+    <ContentPage.Resources>
+
+              <OnPlatform x:Key="BrandonGrotesqueLight"
+                x:TypeArguments="x:String"
+                Android="BrandonGrotesque-Light.otf#BrandonGrotesque-Light"
+                iOS="BrandonGrotesque-Light" />
+                <OnPlatform x:Key="BrandonGrotesqueMedium"
+                x:TypeArguments="x:String"
+                Android="BrandonGrotesque-Medium.otf#BrandonGrotesque-Medium"
+                iOS="BrandonGrotesque-Medium" />
+
+                <OnPlatform x:Key="GinRegular"
+                x:TypeArguments="x:String"
+                Android="Gin-Regular.otf#Gin-Regular"
+                iOS="Gin" />
+              <Style x:Key="BrandonGrotesqueLightMediumFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueMedium}" />
+                <Setter Property="FontSize" Value="Medium" />
+              </Style>
+        
+              <Style x:Key="BrandonGrotesqueLightSmallFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueLightMediumFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+              </Style>
+              <Style x:Key="BrandonGrotesqueMediumMediumFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueMedium}" />
+                <Setter Property="FontSize" Value="Large" />
+              </Style>
+
+              <Style x:Key="BrandonGrotesqueMediumDefaultFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueMediumMediumFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Default" />
+              </Style>
+
+              <Style x:Key="BrandonGrotesqueMediumLargeFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueMediumMediumFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+              </Style>
+            <Style x:Key="GinRegularFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource GinRegular}" />
+              </Style>
+
+              <Style x:Key="Header1FontStyle"
+                BasedOn="{StaticResource GinRegularFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="Margin" Value="10,10,10,0" />
+              </Style>
+            <x:Double x:Key="DefaultMargin">16</x:Double>
+            <x:Double x:Key="Default2Margin">24</x:Double>
+            <x:Double x:Key="4xDefaultMargin">64</x:Double>
+            <x:Double x:Key="2xDefaultMargin">32</x:Double>
+          <Color x:Key="AccentColor">#673C4F</Color>
+          <Color x:Key="Accent2Color">#09307F</Color>
+          <Color x:Key="PrimaryColor">White</Color>
+          <Style x:Key="DefaultButtonStyle"
+            TargetType="Button">
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueMedium}" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="Padding">
+              <Thickness
+                Left="{StaticResource Default2Margin}"
+                Right="{StaticResource Default2Margin}" />
+            </Setter>
+            <Setter Property="TextColor" Value="{StaticResource AccentColor}" />
+          </Style>
+          <Style x:Key="AccentColorButtonStyle"
+            BasedOn="{StaticResource DefaultButtonStyle}"
+            TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource AccentColor}" />
+            <Setter Property="TextColor">White</Setter>
+          </Style>
+           <Style x:Key="Accent2ColorButtonStyle"
+            BasedOn="{StaticResource AccentColorButtonStyle}"
+            TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource Accent2Color}" />
+            <Setter Property="CornerRadius">28</Setter>
+            <Setter Property="HeightRequest">56</Setter>
+          </Style>
+    </ContentPage.Resources>
+    
+    
+    
+    
+    <ContentPage.Content>
+    
+      <Grid BackgroundColor="White">
+      <Grid.Padding>
+        <Thickness
+          Left="{StaticResource Default2Margin}"
+          Right="{StaticResource Default2Margin}" />
+      </Grid.Padding>
+
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <ContentView Grid.Row="0" BackgroundColor="White">
+
+        <Image
+          Margin="{StaticResource DefaultMargin}"
+          HeightRequest="240"
+          HorizontalOptions="Center"
+          Source="javelogo.png"
+          VerticalOptions="Center"
+          WidthRequest="240" />
+
+      </ContentView>
+
+      <StackLayout Grid.Row="1" BackgroundColor="White">
+            <Label Text="Usuario"                     
+                   Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}">
+                    <Label.Margin>
+                      <Thickness Top="{StaticResource DefaultMargin}" />
+                    </Label.Margin>
+            </Label>
+            <Entry 
+                
+                   Text="{Binding Username}">
+                <Entry.Effects>
+                    <effects:BorderlessEntryEffect />
+                </Entry.Effects>
+            </Entry>
+            <Label Text="Contraseña"
+                   
+                   Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}">
+                    <Label.Margin>
+                        <Thickness Top="{StaticResource DefaultMargin}" />
+                    </Label.Margin>
+            </Label>    
+            <Entry IsPassword="True"
+              
+                   Text="{Binding Password}">
+                <Entry.Effects>
+                    <effects:BorderlessEntryEffect />
+                </Entry.Effects>
+            </Entry>
+            
+    </StackLayout>
+     <StackLayout
+        Grid.Row="2"
+        Spacing="{StaticResource Default2Margin}"
+        VerticalOptions="End">
+        <StackLayout.Padding>
+          <Thickness
+            Top="{OnPlatform Android={StaticResource 2xDefaultMargin},
+                             iOS={StaticResource 4xDefaultMargin}}"
+            Bottom="{OnPlatform Android={StaticResource 2xDefaultMargin},
+                                iOS={StaticResource 4xDefaultMargin}}" />
+    </StackLayout.Padding>
+    <Button Text="Ingresar"
+        Margin="0, 40, 0, 0"
+        Style="{StaticResource Accent2ColorButtonStyle}"
+        Clicked="ClickedLogin"/>                
+    
+        </StackLayout>    
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
