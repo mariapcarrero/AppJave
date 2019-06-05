@@ -39,13 +39,29 @@ namespace JaverianaCali.Views
             if (eventArgument.SelectedItem != null) {
                 GeneralCourseModel model = (GeneralCourseModel)eventArgument.SelectedItem;
                 GeneralCourseModel detailedCourse = courseService.FindCourseDetail(user, model);
-                Navigation.PushAsync(new DetailedCourseView(detailedCourse));
+
+                Navigation.PushAsync(new DetailedCourseView(detailedCourse,user));
             }
         }
 
-        private async void ClickedBooks(object sender, EventArgs args)
+        private async void ClickedLibros(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new BooksView(user));
+        }
+        private async void ClickedLogOut(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new LoginView());
+        }
+
+        private async void ClickedPortatiles(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Portatiles(user));
+        }
+
+
+        private async void ClickedAjustes(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ajustes(user));
         }
 
     }

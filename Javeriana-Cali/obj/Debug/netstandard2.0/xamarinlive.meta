@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/App.xaml</FilePath>
+      <Hash>3A-92-C6-4E-7D-33-7C-39-86-A3-B3-F2-6C-EB-A4-7F</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/MainPage.xaml</FilePath>
+      <Hash>78-54-74-89-54-8A-7F-84-D6-C5-12-36-0F-FA-ED-EA</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/Ajustes.xaml</FilePath>
+      <Hash>C9-75-F8-9E-ED-54-31-C3-61-50-4D-BD-6C-6B-D0-DE</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/BooksView.xaml</FilePath>
+      <Hash>9B-22-C5-F0-34-7C-8B-A0-F8-44-4E-C6-19-DE-6C-30</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/CoursesView.xaml</FilePath>
+      <Hash>7A-29-54-4C-62-47-9F-FE-FE-26-74-36-19-77-A1-4D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/DetailedCourseView.xaml</FilePath>
+      <Hash>56-75-33-D1-3D-64-EE-83-14-1B-9E-DD-98-B0-81-C9</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/LoginView.xaml</FilePath>
+      <Hash>42-8B-AB-B4-99-67-F4-F1-91-17-E4-68-76-48-5C-05</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/Views/Portatiles.xaml</FilePath>
+      <Hash>09-4B-B2-F2-DA-C2-A7-FF-56-C0-7B-A3-B5-12-02-9C</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

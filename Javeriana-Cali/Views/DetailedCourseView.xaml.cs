@@ -10,12 +10,32 @@ namespace JaverianaCali.Views
     {
 
         private DetailedCourseViewModel context;
-
-        public DetailedCourseView(GeneralCourseModel model)
+        private UserModel user;
+        public DetailedCourseView(GeneralCourseModel model, UserModel user)
         {
             InitializeComponent();
             context = new DetailedCourseViewModel(model);
             BindingContext = context;
         }
+        private async void ClickedLibros(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new BooksView(user));
+        }
+        private async void ClickedLogOut(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new LoginView());
+        }
+
+        private async void ClickedPortatiles(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Portatiles(user));
+        }
+
+
+        private async void ClickedAjustes(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ajustes(user));
+        }
+
     }
 }

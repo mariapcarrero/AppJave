@@ -15,6 +15,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="LiveXAML" Version="2.1.72" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -25,13 +26,45 @@
     <Folder Include="Services\Restful\" />
     <Folder Include="Models\Restful\" />
     <Folder Include="Effects\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Views\Components\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\EmptyClass.cs" />
+    <Compile Remove="Templates\CourseInfoTemplate.cs" />
+    <Compile Remove="Utils\AsyncCommand.cs" />
+    <Compile Remove="Utils\PreferencesHelpers.cs" />
+    <Compile Remove="Helpers\MapHelper.cs" />
+    <Compile Remove="Helpers\Timer.cs" />
+    <Compile Remove="Views\CoursesListView.xaml.cs" />
+    <Compile Remove="Views\CustomNavigationPage.xaml.cs" />
+    <Compile Remove="Utils\NavigationBarAttachedProperty.cs" />
+    <Compile Remove="Views\Templates\CourseInfoTemplate.xaml.cs" />
+    <Compile Remove="Controls\RatingControl.cs" />
+    <Compile Remove="Views\Libros.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Android">
       <HintPath>..\..\..\..\..\..\..\Library\Frameworks\Xamarin.Android.framework\Versions\9.2.3-0\lib\xamarin.android\xbuild-frameworks\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\BookingHotelsView.xaml.cs">
+      <DependentUpon>BookingHotelsView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Portatiles.xaml.cs">
+      <DependentUpon>Portatiles.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Ajustes.xaml.cs">
+      <DependentUpon>Ajustes.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\CoursesListView.xaml" />
+    <EmbeddedResource Remove="Views\CustomNavigationPage.xaml" />
+    <EmbeddedResource Remove="Views\Templates\CourseInfoTemplate.xaml" />
+    <EmbeddedResource Remove="Views\Libros.xaml" />
   </ItemGroup>
 </Project>

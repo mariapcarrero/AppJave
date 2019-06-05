@@ -8,6 +8,7 @@ namespace JaverianaCali.Views
 {
     public partial class BooksView : ContentPage
     {
+        private UserModel user;
         public BooksView(UserModel user)
         {
             InitializeComponent();
@@ -22,5 +23,25 @@ namespace JaverianaCali.Views
 
             }
         }
+        private async void ClickedLibros(object sender, EventArgs args, UserModel user)
+        {
+            await Navigation.PushAsync(new BooksView(user));
+        }
+        private async void ClickedLogOut(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new LoginView());
+        }
+
+        private async void ClickedPortatiles(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Portatiles(user));
+        }
+
+
+        private async void ClickedAjustes(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ajustes(user));
+        }
+
     }
 }

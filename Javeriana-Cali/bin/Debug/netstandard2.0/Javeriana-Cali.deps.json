@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "60ae19245bbe5608a235871dfb39c18d2b8a6d4c"
+    "signature": "6b7dd2411731238c5aa69d54d6b268a0b18f16ed"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Javeriana-Cali/1.0.0": {
         "dependencies": {
+          "LiveXAML": "2.1.72",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.2",
           "SkiaSharp.Views.Forms": "1.68.0",
@@ -20,6 +21,7 @@
           "Javeriana-Cali.dll": {}
         }
       },
+      "LiveXAML/2.1.72": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -104,6 +106,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LiveXAML/2.1.72": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/AHCK3P3qDFzmU9OieJcToTbXu7vVHh156CPYCd1eeSll7UngwrkKpGOgO+t8i53QIloQKlzC5oRoidAiIHiVg==",
+      "path": "livexaml/2.1.72",
+      "hashPath": "livexaml.2.1.72.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

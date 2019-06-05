@@ -12,8 +12,8 @@ namespace JaverianaCali.ViewModels
 
         public LoginViewModel() {
             // This is used only to test if the extended class atributes are being displayed correctly
-            this.Username = "Juan2114";
-            this.Password = "abc";
+            this.Username = "mariapcarrero";
+            this.Password = "Theolo123";
         }
 
         public async Task<UserModel> AttemptLogin() {

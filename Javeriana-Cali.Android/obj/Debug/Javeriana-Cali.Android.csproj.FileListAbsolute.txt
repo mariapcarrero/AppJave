@@ -388,6 +388,13 @@
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/jave.jpg
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/javelogo.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconajustesnavbar.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconasignaturasnavbar.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconbook.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconlibrosnavbar.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconlogout.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconportatilesnavbar.png
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/res/drawable/iconuser.png
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/R.cs.flag
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/R.txt
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/uploadflags.txt
@@ -520,5 +527,5 @@
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_CopyPdbFiles.stamp
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/android/assets/machine.config
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_CompileToDalvik.stamp
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp

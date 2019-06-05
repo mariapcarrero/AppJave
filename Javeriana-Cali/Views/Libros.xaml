@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JaverianaCali.Views.Libros"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+            </Grid.RowDefinitions>
+            <BoxView Color="#2C5697" Grid.Row="0"/>
+            <BoxView Color="White" Grid.Row="1"/>
+            <BoxView Color="#2C5697" Grid.Row="2"/>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="70"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="IconLogOut.png" Grid.Column="0" HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedLogOut"/>
+                <Label Text="Libros" Grid.Column="1" TextColor="White" 
+                       HorizontalTextAlignment="Center" 
+                       VerticalTextAlignment="Center"
+                       FontSize="Large"/>
+                <ImageButton Source="IconUser.png" Grid.Column="2" HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"/>
+
+            </Grid>
+            <ScrollView Grid.Row="1">
+                <StackLayout>
+                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                    <BoxView HeightRequest="200" Margin="10" Color="#D8D8D8"/>
+                </StackLayout>
+            </ScrollView>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <ImageButton Source="IconAsignaturasNavBar.png" 
+                             Grid.RowSpan="3"
+                             Grid.Column="0" 
+                             HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedAsignaturas"/>
+                <ImageButton Source="IconPortatilesNavBar.png" 
+                             Grid.RowSpan="3"
+                             Grid.Column="1" 
+                             HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedPortatiles"/>
+                <ImageButton Source="IconBook.png" 
+                             Grid.RowSpan="3"
+                             Grid.Column="2" 
+                             HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"/>
+                <ImageButton Source="IconAjustesNavBar.png" 
+                             Grid.RowSpan="3"
+                             Grid.Column="3" 
+                             HorizontalOptions="Center"
+                             VerticalOptions="CenterAndExpand" 
+                             BackgroundColor="#2C5697"
+                             Clicked="ClickedAjustes" />
+
+
+            </Grid>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

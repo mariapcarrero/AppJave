@@ -1,38 +1,102 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MVVMXamarin.App">
+             x:Class="JaverianaCali.App">
     <Application.Resources>
       <ResourceDictionary>
-            <Style x:Key="FormLabelStyle" 
-                   TargetType="Label">
-                <Setter Property="FontSize"
-                        Value="18" />
-                <Setter Property="TextColor"
-                        Value="#333333" />
-            </Style>
+            <!-- COLORS -->
+                <Color x:Key="AccentColor">#BC4C1B</Color>
+                <Color x:Key="BackgroundColor">#212C37</Color>
+                <Color x:Key="BlackColor">#000000</Color>
+                <Color x:Key="BlackTextColor">#253748</Color>
+                <Color x:Key="BlueColor">#0072C6</Color>
+                <Color x:Key="GreenColor">#368F94</Color>
+                <Color x:Key="OrangeColor">#BC4C1B</Color>
+                <Color x:Key="LightOrangeColor">#D87E56</Color>
+                <Color x:Key="WhiteColor">#FFFFFF</Color>
+                <Color x:Key="ValidationErrorColor">#FF204F</Color>
+                <Color x:Key="DarkGrayColor">#ADADAD</Color>
+                <Color x:Key="GrayColor">#F6F1E9</Color>
+                <!-- FONTS -->
+                <OnPlatform x:Key="font_medium" x:TypeArguments="x:String">
+                    <On Platform="Android" Value="futura_medium.ttf#FuturaBT-Medium" />
+                    <On Platform="iOS" Value="FuturaBT-Medium" />
+                </OnPlatform>
+                <OnPlatform x:Key="font_book" x:TypeArguments="x:String">
+                    <On Platform="Android" Value="futura_book.ttf#FuturaBT-Book" />
+                    <On Platform="iOS" Value="FuturaBT-Book" />
+                </OnPlatform>
+                
+                <OnPlatform x:Key="Brandon"
+                    x:TypeArguments="x:String"
+                    Android="BrandonGrotesque-Medium.otf#BrandonGrotesque-Medium"
+                iOS="BrandonGrotesque-Medium" />
+                <OnPlatform x:Key="Fenix"
+                    x:TypeArguments="x:String"
+                    Android="Fenix-Regular.ttf#Fenix-Regular"
+                iOS="BrandonGrotesque-Medium" />
+                <OnPlatform x:Key="font_heavy" x:TypeArguments="x:String">
+                    <On Platform="Android" Value="futura_heavy.ttf#FuturaBT-Heavy" />
+                    <On Platform="iOS" Value="FuturaBT-Heavy" />
+                </OnPlatform>
+                <!-- STYLES -->
+                <Style TargetType="Label" x:Key="FontHeavy">
+                    <Setter Property="FontSize" Value="16" />
+                    <Setter Property="BackgroundColor" Value="#FFFFFF" />
+                    <Setter Property="TextColor" Value="#1b1537" />
+                    <Setter Property="FontFamily" Value="{StaticResource font_heavy}" />
+                </Style>
+                <Style TargetType="{x:Type Label}" x:Key="FontBook">
+                    <Setter Property="FontFamily" Value="{StaticResource font_book}" />
+                    <Setter Property="FontSize" Value="16" />
+                    <Setter Property="TextColor" Value="White" />
+                </Style>
+                <OnPlatform x:Key="BrandonGrotesqueL"
+                    x:TypeArguments="x:String"
+                    Android="BrandonGrotesque-Light.otf#BrandonGrotesque-Light"
+                    iOS="BrandonGrotesque-Light" />
+                    <OnPlatform x:Key="BrandonGrotesqueM"
+                    x:TypeArguments="x:String"
+                    Android="BrandonGrotesque-Medium.otf#BrandonGrotesque-Medium"
+                    iOS="BrandonGrotesque-Medium" />
 
-            <Style x:Key="FormEntryStyle" 
-                   TargetType="Label">
-                <Setter Property="TextColor"
-                        Value="White" />
-                <Setter Property="BackgroundColor"
-                        Value="#262626" />
-            </Style>
+                <OnPlatform x:Key="GinReg"
+                    x:TypeArguments="x:String"
+                    Android="Gin-Regular.otf#Gin-Regular"
+                    iOS="Gin" />
+              <Style x:Key="BrandonGrotesqueLightMFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueM}" />
+                <Setter Property="FontSize" Value="Medium" />
+              </Style>
+        
+              <Style x:Key="BrandonGrotesqueLightSFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueLightMFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+              </Style>
+              <Style x:Key="BrandonGrotesqueMMFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BrandonGrotesqueM}" />
+                <Setter Property="FontSize" Value="Large" />
+              </Style>
 
-            <Style x:Key="FormSubmitBtnStyle" 
-                   TargetType="Button">
-                <Setter Property="BorderWidth"
-                        Value="0" />
-                <Setter Property="WidthRequest"
-                        Value="200" />
-                <Setter Property="BackgroundColor"
-                        Value="Transparent" />
-                <Setter Property="TextColor"
-                        Value="#333333" />
-                <Setter Property="FontSize"
-                        Value="20" />
-            </Style>
+              <Style x:Key="BrandonGrotesqueMDefaultFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueMMFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Default" />
+              </Style>
+
+              <Style x:Key="BrandonGrotesqueMLFontStyle"
+                BasedOn="{StaticResource BrandonGrotesqueMMFontStyle}"
+                TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+              </Style>
+            <Style x:Key="GinRFontStyle"
+                TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource GinReg}" />
+              </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

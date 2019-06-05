@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Javeriana-Cali.App.xaml", "App.xaml", typeof(global::MVVMXamarin.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Javeriana-Cali.App.xaml", "App.xaml", typeof(global::JaverianaCali.App))]
 
-namespace MVVMXamarin {
+namespace JaverianaCali {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("App.xaml")]

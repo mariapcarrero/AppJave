@@ -1,16 +1,38 @@
 ﻿<Properties StartupConfiguration="{770F3FBF-059C-41BE-97AD-AE352F28E093}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.2.3-0/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Javeriana-Cali/Views/LoginView.xaml">
     <Files>
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1156" Column="2" />
+      <File FileName="Javeriana-Cali/Views/Templates/CourseInfoTemplate.xaml" Line="1" Column="1" />
+      <File FileName="Javeriana-Cali/App.xaml" />
+      <File FileName="Javeriana-Cali/Views/CoursesView.xaml" />
+      <File FileName="Javeriana-Cali/Services/CourseService.cs" Line="1" Column="1" />
+      <File FileName="../../../Downloads/FrontProyecto/FrontProyecto/FrontProyecto/Views/Asignaturas.xaml" />
+      <File FileName="../../../Downloads/KickassUI.InSpace-master/Posy/Pages/ResultPage.xaml" />
+      <File FileName="Javeriana-Cali/Views/LoginView.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Node name="FrontProyecto" expanded="True">
+            <Node name="FrontProyecto" expanded="True">
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="FrontProyecto.Android" expanded="True" />
+          </Node>
           <Node name="Javeriana-Cali" expanded="True">
             <Node name="Javeriana-Cali" expanded="True">
-              <Node name="App.xaml" selected="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginView.xaml" selected="True" />
+              </Node>
             </Node>
             <Node name="Javeriana-Cali.Android" expanded="True" />
+          </Node>
+          <Node name="Posy" expanded="True">
+            <Node name="Posy" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

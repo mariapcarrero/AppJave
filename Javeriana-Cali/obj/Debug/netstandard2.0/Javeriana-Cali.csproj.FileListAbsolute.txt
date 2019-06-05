@@ -35,22 +35,24 @@
 /Users/mariapaulacarrero/Downloads/Proyecto-Moviles-master 5 3/Javeriana-Cali/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csproj.CopyComplete
 /Users/mariapaulacarrero/Downloads/Proyecto-Moviles-master 5 3/Javeriana-Cali/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.dll
 /Users/mariapaulacarrero/Downloads/Proyecto-Moviles-master 5 3/Javeriana-Cali/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/Ajustes.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/BooksView.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/CoursesView.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/DetailedCourseView.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/Portatiles.xaml.g.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csproj.CoreCompileInputs.cache
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.AssemblyInfoInputs.cache
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.AssemblyInfo.cs
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.dll
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/bin/Debug/netstandard2.0/Javeriana-Cali.deps.json
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/bin/Debug/netstandard2.0/Javeriana-Cali.dll
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/bin/Debug/netstandard2.0/Javeriana-Cali.pdb
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/bin/Debug/netstandard2.0/Mono.Android.dll
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/bin/Debug/netstandard2.0/Mono.Android.pdb
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csprojAssemblyReference.cache
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/BooksView.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/CoursesView.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/DetailedCourseView.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csproj.CoreCompileInputs.cache
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.AssemblyInfoInputs.cache
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.AssemblyInfo.cs
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csproj.CopyComplete
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.dll
-/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.pdb
+/Users/mariapaulacarrero/Documents/GitHub/AppJave/Javeriana-Cali/obj/Debug/netstandard2.0/Javeriana-Cali.csprojAssemblyReference.cache
